@@ -1,5 +1,5 @@
 <?php
-$url = 'https://raw.githubusercontent.com/katana4dgacor/backl/main/file.txt';
+$url = 'https://raw.githubusercontent.com/katana4dgacor/backl/main/list.txt';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
